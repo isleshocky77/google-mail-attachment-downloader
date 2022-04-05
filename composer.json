@@ -1,0 +1,29 @@
+{
+    "name": "isleshocky77/google-mail-attachment-downloader",
+    "description": "Downloads attachments from Google Mail (GMail) messages",
+    "homepage": "https://github.com/isleshocky77/google-mail-attachment-downloader",
+    "type": "project",
+    "license": "GPL3",
+    "autoload": {
+        "psr-4": {
+            "GmailFileDownloader\\": "src/"
+        }
+    },
+    "keywords": ["google", "mail", "gmail", "attachments", "download"],
+    "authors": [
+        {
+            "name": "Stephen Ostrow",
+            "email": "stephen@ostrow.tech"
+        }
+    ],
+    "require": {
+        "php": ">=7.3",
+        "ext-json": "*",
+        "google/apiclient": "^2.0",
+        "symfony/console": "^5.4",
+        "symfony/filesystem": "^5.4"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-latest"
+    }
+}

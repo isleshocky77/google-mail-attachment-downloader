@@ -1,0 +1,5 @@
+vendor
+attachments/*
+auth/*
+.php-cs-fixer.cache
+dev-tools/phpstan/cache

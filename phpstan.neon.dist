@@ -1,0 +1,8 @@
+parameters:
+    level: 5
+    paths:
+        - src
+    excludePaths:
+        - tests/Fixtures
+    tipsOfTheDay: false
+    tmpDir: dev-tools/phpstan/cache
